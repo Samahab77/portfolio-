@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Samah Bagido</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bootstrap 4 Portfolio/Resume Theme for Developers">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    
+    <!-- FontAwesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+    
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    
+    <!-- github calendar css -->
+    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css">
+    <!-- github acitivity css -->    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+    <link rel="stylesheet" href="assets/plugins/github-activity/github-activity-0.1.5.min.css">
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    
+</head> 
+
+<body>
+    <!-- ******HEADER****** --> 
+    <header class="header">
+        <div class="container clearfix">                       
+            <img class="profile-image img-fluid float-left" src="assets/images/profile1.jpg" alt="Samah Bagido" />
+            <div class="profile-content float-left">
+                <h1 class="name">Samah Bagido</h1>
+                <h2 class="desc">Full Stack Developer</h2>   
+                <ul class="social list-inline">
+                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/samah-bagedo-9784a130/"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li class="list-inline-item"><a
+                            href="https://github.com/Samahab77?tab=overview&from=2019-09-01&to=2019-09-16"><i class=" fab
+                            fa-github-alt"></i></a></li>
+                    <!-- <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow"></i></a></li>   
+                    <li class="list-inline-item last-item"><a href="#"><i class="fab fa-codepen"></i></a></li>                 -->
+                </ul> 
+            </div><!--//profile-->
+            <!-- <a class="btn btn-cta-primary float-right" href="https://themes.3rdwavemedia.com/" target="_blank"><i class="fas fa-paper-plane"></i> Contact Me</a>               -->
+        </div><!--//container-->
+    </header><!--//header-->
+    
+    <div class="container sections-wrapper">
+        <div class="row">
+            <div class="primary col-lg-8 col-12">
+                <section class="about section">
+                    <div class="section-inner">
+                        <h2 class="heading">About Me</h2>
+                        <div class="content">
+                            <h6>My Passion is creating, and I find happiness in being a better me today than the me yesterday.</h6>
+                            <!-- <p>I'm web full stack Developer   </p> -->
+                         
+                        </div><!--//content-->
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+    
+               <section class="latest section">
+                    <div class="section-inner">
+                        <h2 class="heading">Latest Projects</h2>
+                        <div class="content">    
+                                               
+                            <div class="item featured text-center">
+                                <h3 class="title"><a href="https://samahab77.github.io/project-4-frontend/" target="_blank">Afaq BookClub</a></h3>
+                                <p class="summary">The perfect platform for Reader Groub </p>
+                                <div class="featured-image has-ribbon">
+                                    <a href="https://samahab77.github.io/project-4-frontend/" target="_blank">
+                                    <img class="img-fluid project-image"
+                                        src="https://s3-eu-west-1.amazonaws.com/tra-rgfe/assets/265/large_GoldenTriangle.jpg"
+                                        alt="project name" />
+                                    </a>
+                                    <p><a class="more-link" href="https://github.com/Samahab77/project-4-frontend" target="_blank"><i
+                                                class="fas fa-external-link-alt"></i>Find out more</a>
+                                    </p>
+                                    <div class="ribbon">
+                                        <div class="text">New</div>
+                                    </div>
+                                </div>
+                                    
+                                <div class="desc text-left">                                    
+                                    <p></p>
+                            </div><!--//item-->
+                            <hr class="divider" />
+                            <div class="item row">
+                                <a class="col-md-4 col-12" href="https://samahab77.github.io/tic-tac-toe-project1/" target="_blank">
+                                <img class="img-fluid project-image"
+                                    src="data:image/png;base64,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"
+                                    alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="https://samahab77.github.io/tic-tac-toe-project1/" target="_blank">Tic-tac-toe Game</a></h3>
+                                    <p class="mb-2">Play Tic-tac-toe with your frind </p>
+                                    <p><a class="more-link"
+                                            href="https://github.com/Samahab77/tic-tac-toe/blob/master/README.md"
+                                            target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a>
+                                    </p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                            <!--<div class="item row">
+                                <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devstudio-bootstrap-theme-for-web-development-agencies-and-developers/" target="_blank">
+                                <img class="img-fluid project-image" src="assets/images/projects/project-2.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devstudio-bootstrap-theme-for-web-development-agencies-and-developers/" target="_blank">DevStudio - Bootstrap 4 Theme for WebDev Agencies and Freelance Developers</a></h3>
+                                    <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
+                                    <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devstudio-bootstrap-theme-for-web-development-agencies-and-developers/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div><!--//desc                         
+                            </div>//item-->
+                            
+                             <!-- <div class="item row"> 
+                                <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/startupkit-bootstrap-theme-for-saas-startups/" target="_blank">
+                                <img class="img-fluid project-image" src="assets/images/projects/project-3.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/startupkit-bootstrap-theme-for-saas-startups/" target="_blank">Startup Kit - Bootstrap 4 Theme for SaaS Startups</a></h3>
+                                    <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
+                                    <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/startupkit-bootstrap-theme-for-saas-startups/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div><!--//desc                          
+                            </div>//item-->
+                            
+                            <!-- <div class="item row">
+                                <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/" target="_blank">
+                                <img class="img-fluid project-image" src="assets/images/projects/project-4.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/" target="_blank">Nova Pro - Bootstrap 4 Theme for Mobile Startups</a></h3>
+                                    <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus.</p>
+                                    <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div><!--//desc                         
+                            </div>//item-->                            
+                            <!--<div class="item row">
+                                <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/delta-bootstrap-theme-for-mobile-apps/" target="_blank">
+                                <img class="img-fluid project-image" src="assets/images/projects/project-5.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/delta-bootstrap-theme-for-mobile-apps/" target="_blank">Delta - Bootstrap 4 Theme for Promoting Mobile Apps</a></h3>
+                                    <p class="mb-2"> You can put one of your secondary projects here. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
+                                    <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/delta-bootstrap-theme-for-mobile-apps/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div>
+                                <!--//desc                         
+                            </div>
+                           //item-->
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                
+                </section>
+                
+                <!-- <section class="projects section">
+                    <div class="section-inner">
+                        <h2 class="heading">Projects</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap4-resume-cv-template-for-developers-pillar/" target="_blank">Pillar - Free Bootstrap 4 Resume/CV Template for Developers</a> <span class="badge badge-theme">Free</span></h3>
+                                <p class="summary">Provide a brief description of your project. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatu.</p>
+                                <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap4-resume-cv-template-for-developers-pillar/" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p>
+                            </div><!--//item-->
+                           <!--  <div class="item">
+                                <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/speciality/devblog-free-bootstrap-4-blog-template-for-developers/" target="_blank">DevBlog - Free Bootstrap 4 Blog Template for Developers</a> <span class="badge badge-theme">Free</span></h3>
+                                <p class="summary">Provide a brief description of your project. Maecenas ornare ultricies risus, in fermentum augue consectetur in. Vestibulum vitae mauris iaculis, sollicitudin velit in, molestie nulla. </p>
+                                <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/speciality/devblog-free-bootstrap-4-blog-template-for-developers/" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p>
+                            </div><!--//item-->
+                         <!--  <div class="item">
+                                <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/nova-bootstrap-landing-page-template-for-mobile-apps/" target="_blank">Nova - Free App Landing Page Template for App Developers</a> <span class="badge badge-theme">Free</span></h3>
+                                <p class="summary">Provide a brief description of your project. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel purus enim. Etiam tortor felis, fermentum ac ultrices sed.</p>
+                                <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/nova-bootstrap-landing-page-template-for-mobile-apps/" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p>
+                            </div><!--//item-->
+                            
+                          <!--  <a class="btn btn-cta-secondary" href="#">More on CoderWall <i class="fas fa-chevron-right"></i></a>
+                            
+                        </div><!--//content-->  
+                  <!--  </div><!--//section-inner-->                 
+                <!-- </section> --> 
+                <!--//section-->
+                
+               <!----> 
+                
+               
+            </div><!--//primary-->
+            <div class="secondary col-lg-4 col-12">
+                 <aside class="info aside section">
+                    <div class="section-inner">
+                        <h2 class="heading sr-only">Basic Information</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Jeddah - Yanbu , KSA</li>
+                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a href="#">s.bagido@gmail.com</a></li>
+                                <!-- <li><i class="fas fa-link"></i><span class="sr-only">Website:</span><a href="#">https://www.website.com</a></li> -->
+                            </ul>
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//aside-->
+                
+                <aside class="skills aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Skills</h2>
+                        <div class="content">
+                            <!-- <p class="intro">
+                                Intro about your skills goes here. Keep the list lean and only show your primary skillset. You can always provide a link to your Linkedin or Coderwall profile so people can get more info there.</p>
+                             -->
+                            <div class="skillset">
+                               
+                                <!-- <div class="item">
+                                    <h3 class="level-title">Python &amp; Django<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i>Expert</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="96%">
+                                        </div>                                      
+                                    </div>//level-bar-->                                 
+                                <!-- </div>//item --> 
+
+
+                                <div class="item">
+                                    <h3 class="level-title">Javascript &amp; Express<span class="level-label" data-toggle="tooltip" data-placement="left"
+                                            data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i
+                                                class="fas fa-info-circle"></i></span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="96%">
+                                        </div>
+                                    </div>
+                                    <!--//level-bar-->
+                                </div>
+                                <!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Javascript &amp; jQuery<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i></span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="96%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">HTML5, CSS3, SASS &amp; LESS<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="96%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Ruby on Rails<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i class="fas fa-info-circle"></i></span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="85%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                <div class="item">
+                                    <h3 class="level-title">node.js (React)<span class="level-label" data-toggle="tooltip" data-placement="left"
+                                            data-animation="true" title="You can use the tooltip to explain more about your skill level..."><i
+                                                class="fas fa-info-circle"></i></span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="85%">
+                                        </div>
+                                    </div>
+                                    <!--//level-bar-->
+                                </div>
+                                <!--//item-->
+                                
+                                <!-- <p><a class="more-link" href="#"><i class="fas fa-external-link-alt"></i>More on Coderwall</a></p>  -->
+                            </div>              
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//section-->
+                
+                <aside class="testimonials aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Testimonials</h2>
+                        <div class="content">
+                            <div class="item">
+                                <blockquote class="quote">                                  
+                                    <!-- <p><i class="fas fa-quote-left"></i>James is an excellent software engineer and he is passionate about what he does. You can totally count on him to deliver your projects!</p> -->
+                                </blockquote>                
+                                <!-- <p class="source"><span class="name">Tim Adams</span><br /><span class="title">Curabitur commodo</span></p>                                                              -->
+                            </div><!--//item-->
+                            
+                            <p><a class="more-link" href="#"><i class="fas fa-external-link-alt"></i>More on Linkedin</a></p> 
+                            
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+                <aside class="education aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Education</h2>
+                        <div class="content">
+                            <!-- <div class="item">                      
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> MSc Computer Science</h3>
+                                <h4 class="university">University College London <span class="year">(2011-2012)</span></h4>
+                            </div>//item -->
+                            <div class="item">
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> BSc Computer Science</h3>
+                                <h4 class="university">Yanbu University College <span class="year">(2008-2013)</span></h4>
+                            </div><!--//item-->
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                            
+                <aside class="languages aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Languages</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li class="item">
+                                    <span class="title"><strong>English</strong></span>
+                                    <!-- <span class="level">Native Speaker <br class="visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span> -->
+                                </li><!--//item-->
+                                <li class="item">
+                                    <span class="title"><strong>Arabic</strong></span>
+                                    <!-- <span class="level">Professional Proficiency <br class="visible-sm visible-xs"/><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star-half"></i></span> -->
+                                </li><!--//item-->
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+               
+                
+                
+                
+               
+                
+               
+            </div><!--//secondary-->    
+        </div><!--//row-->
+    </div><!--//masonry-->
+    
+    <!-- ******FOOTER****** --> 
+    <footer class="footer">
+        <div class="container text-center">
+                <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out our commercial license options via our website: themes.3rdwavemedia.com */-->
+                <small class="copyright">SaMaH BaGiDo <i class="fas fa-heart"></i> <a href="https://themes.3rdwavemedia.com" target="_blank"></a> </small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+ 
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
+    <!-- github calendar plugin -->
+    <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
+    <!-- github activity plugin -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/github-activity/github-activity-0.1.5.min.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>            
+</body>
+</html> 
+
